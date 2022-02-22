@@ -12,8 +12,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />} />
-        <Route path='About' element={<About />} />
-        <Route path='Contact' element={<Contact />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Contact' element={<Contact />} />
         <Route path='*' element={<h1>ERROR 404: PAGE NOT FOUND</h1>} />
       </Routes>
     </BrowserRouter>
