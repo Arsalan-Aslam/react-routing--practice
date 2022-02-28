@@ -1,0 +1,22 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0.5em;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.active-link {
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+}
